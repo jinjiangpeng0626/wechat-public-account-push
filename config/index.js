@@ -30,18 +30,18 @@ export const config = {
     // 金山每日一句
     CIBA: true,
     // 每日一言
-    oneTalk: false,
+    oneTalk: true,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     // 朋友圈文案
-    momentCopyrighting: false,
+    momentCopyrighting: true,
     // 毒鸡汤
-    poisonChickenSoup: false,
+    poisonChickenSoup: true,
     // 古诗古文
-    poetry: false,
+    poetry: true,
 
     /** 星座运势 */
-    horoscope: false,
+    horoscope: true,
 
     /** 生日消息和节日消息 */
     birthdayMessage: true,
@@ -60,7 +60,7 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "Zx9jY5Jp7",
+      name: "西西宝贝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oJczp56PJazsgIRlfQDsh6SbLXmI",
       // 你想对他发送的模板消息的模板ID
@@ -220,7 +220,7 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+    
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",
