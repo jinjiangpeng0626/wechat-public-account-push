@@ -64,7 +64,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oJczp56PJazsgIRlfQDsh6SbLXmI",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "FZjkfRZO0p3cxRYrE8CALPoesctPW4mMqXmsKcHV2pA",
+      useTemplateId: "wbtpFXXed6wnANAOa-yxZh7gwURWCNyzuQWsXKcTQlY",
       // 所在省份
       province: "浙江",
       // 所在城市
@@ -78,9 +78,9 @@ export const config = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "西西", "year": "2000", "date": "05-12"},
+        {"type": "*生日", "name": "宝桑", "year": "2000", "date": "05-12"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "鹏", "year": "1999", "date": "06-26"},
+        {"type": "生日", "name": "鹏桑", "year": "1999", "date": "06-26"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
